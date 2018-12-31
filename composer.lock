@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a0a7921f9b7b47f75117d44a8c453bc",
+    "content-hash": "6d094f03ef08fb3173bb00a1efc64377",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -915,17 +915,17 @@
             "time": "2018-09-08T12:34:36+00:00"
         },
         {
-            "name": "lapress/lapress",
-            "version": "dev-develop",
+            "name": "lapress/framework",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/lapress/lapress.git",
-                "reference": "0762097f7ca821a6ae7f16d3ad1b963576f300d7"
+                "url": "https://github.com/lapress/framework.git",
+                "reference": "3ad605f704b6f3fb8b8fc742aeed852f8bbeafb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/lapress/zipball/0762097f7ca821a6ae7f16d3ad1b963576f300d7",
-                "reference": "0762097f7ca821a6ae7f16d3ad1b963576f300d7",
+                "url": "https://api.github.com/repos/lapress/framework/zipball/3ad605f704b6f3fb8b8fc742aeed852f8bbeafb6",
+                "reference": "3ad605f704b6f3fb8b8fc742aeed852f8bbeafb6",
                 "shasum": ""
             },
             "require": {
@@ -933,9 +933,11 @@
                 "jjgrainger/wp-custom-post-type-class": "^1.4",
                 "johnpbloch/wordpress": "^4.9",
                 "lapress/commands": "dev-develop",
+                "lapress/config": "dev-develop",
                 "lapress/deployment": "0.1.0",
                 "lapress/models": "dev-develop",
                 "lapress/presets": "dev-master",
+                "lapress/routing": "dev-develop",
                 "lapress/support": "dev-develop",
                 "php": "^7.1.3",
                 "predis/predis": "^1.1",
@@ -949,9 +951,11 @@
             "description": "Laravel mixed with wordpress",
             "keywords": [
                 "framework",
-                "laravel"
+                "lapress",
+                "laravel",
+                "wordpress"
             ],
-            "time": "2018-12-28T22:00:01+00:00"
+            "time": "2018-12-31T11:14:02+00:00"
         },
         {
             "name": "lapress/models",
@@ -5512,10 +5516,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "lapress/config": 20,
-        "lapress/lapress": 20,
-        "lapress/presets": 20,
-        "lapress/routing": 20
+        "lapress/framework": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
