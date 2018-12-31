@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'core'  => storage_path('/wordpress'),
+    'core'  => storage_path('framework/wordpress'),
     'debug' => env('APP_DEBUG'),
     'theme' => [
         'views' => 'views',

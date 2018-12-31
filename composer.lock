@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a09a153428b71a930e726e5a63ae55ea",
+    "content-hash": "1973be258829cd45ae9f9f50c056b028",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -840,42 +840,6 @@
             "time": "2018-12-28T21:58:04+00:00"
         },
         {
-            "name": "lapress/config",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lapress/config.git",
-                "reference": "68c30fa3d502cf8cb319636db749f8ea525d12cc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lapress/config/zipball/68c30fa3d502cf8cb319636db749f8ea525d12cc",
-                "reference": "68c30fa3d502cf8cb319636db749f8ea525d12cc",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "LaPress\\Config\\ConfigServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "LaPress\\Config\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "seszcze",
-                    "email": "sebastian@ably.pl"
-                }
-            ],
-            "time": "2018-05-22T11:01:01+00:00"
-        },
-        {
             "name": "lapress/deployment",
             "version": "0.1.0",
             "source": {
@@ -920,12 +884,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/framework.git",
-                "reference": "3ad605f704b6f3fb8b8fc742aeed852f8bbeafb6"
+                "reference": "01e9c1a67ecde054fe24e0df6ee398174d3a0b8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/framework/zipball/3ad605f704b6f3fb8b8fc742aeed852f8bbeafb6",
-                "reference": "3ad605f704b6f3fb8b8fc742aeed852f8bbeafb6",
+                "url": "https://api.github.com/repos/lapress/framework/zipball/01e9c1a67ecde054fe24e0df6ee398174d3a0b8f",
+                "reference": "01e9c1a67ecde054fe24e0df6ee398174d3a0b8f",
                 "shasum": ""
             },
             "require": {
@@ -933,7 +897,6 @@
                 "jjgrainger/wp-custom-post-type-class": "^1.4",
                 "johnpbloch/wordpress": "^4.9",
                 "lapress/commands": "dev-develop",
-                "lapress/config": "dev-develop",
                 "lapress/deployment": "0.1.0",
                 "lapress/models": "dev-develop",
                 "lapress/presets": "dev-master",
@@ -955,7 +918,7 @@
                 "laravel",
                 "wordpress"
             ],
-            "time": "2018-12-31T11:14:02+00:00"
+            "time": "2018-12-31T12:35:43+00:00"
         },
         {
             "name": "lapress/models",

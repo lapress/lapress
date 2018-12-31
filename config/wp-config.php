@@ -25,3 +25,4 @@ define('WP_DEBUG', config('wordpress.debug'));
 define('WP_AUTO_UPDATE_CORE', false);
 define('DISALLOW_FILE_EDIT', true);
 define('WP_DEFAULT_THEME', config('wordpress.theme.active'));
+define('WP_CONTENT_DIR', storage_path('content'));

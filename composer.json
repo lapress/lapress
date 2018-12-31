@@ -31,7 +31,7 @@
         "laravel": {
             "dont-discover": []
         },
-        "wordpress-install-dir": "storage/wordpress/core"
+        "wordpress-install-dir": "storage/framework/wordpress"
     },
     "autoload": {
         "psr-4": {
@@ -54,7 +54,7 @@
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "LaPress\\Support\\ComposerScripts::postAutoload",
             "@php artisan package:discover --ansi",
-            "@php -r \"copy('storage/wordpress/wp-config.php', 'storage/wordpress/core/wp-config.php');\""
+            "@php -r \"copy('vendor/lapress/framework/wp-config.php', 'storage/framework/wordpress/wp-config.php');\""
         ],
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
