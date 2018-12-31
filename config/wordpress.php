@@ -4,7 +4,7 @@ return [
     'core'  => storage_path('framework/wordpress'),
     'debug' => env('APP_DEBUG'),
     'theme' => [
-        'views' => 'views',
+        'views'      => 'views',
         'option_key' => 'theme_mods_'.env('APP_NAME'),
     ],
     'url'   => [
@@ -35,11 +35,11 @@ return [
     'images' => [
         'quality' => 95,
         'sizes'   => [
-//            'thumb' => [
-//                'width'  => 70,
-//                'height' => 70,
-//                'crop'   => true,
-//            ],
+            'thumb' => [
+                'width'  => 100,
+                'height' => 70,
+                'crop'   => true,
+            ],
         ],
     ],
 
@@ -52,8 +52,8 @@ return [
         'per_page'    => 10,
         'on_homepage' => 10,
         'map'         => [
-            'page'    => \LaPress\Models\Page::class,
-            'post'    => \LaPress\Models\Post::class,
+            'page' => \LaPress\Models\Page::class,
+            'post' => \LaPress\Models\Post::class,
         ],
         /*
         |--------------------------------------------------------------------------
@@ -74,6 +74,18 @@ return [
 //            '{postType}'     => [
 //                '{taxonomy}'      => [],
 //            ],
+        ],
+        /*
+        |--------------------------------------------------------------------------
+        | Custom post types routes
+        |-----------------------------------
+        |
+        */
+        'routes'      => [
+            'post' => [
+                'route'      => '/{slug}',
+                'post_types' => ['post', 'page'],
+            ],
         ],
     ],
 ];
