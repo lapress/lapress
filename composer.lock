@@ -809,12 +809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/commands.git",
-                "reference": "a4e5fcbe45ebc6c0eedb554ff78c25f0d6c6a118"
+                "reference": "7a51ef99d4e3bfb2f6e216261f7cc4905bfd4f63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/commands/zipball/a4e5fcbe45ebc6c0eedb554ff78c25f0d6c6a118",
-                "reference": "a4e5fcbe45ebc6c0eedb554ff78c25f0d6c6a118",
+                "url": "https://api.github.com/repos/lapress/commands/zipball/7a51ef99d4e3bfb2f6e216261f7cc4905bfd4f63",
+                "reference": "7a51ef99d4e3bfb2f6e216261f7cc4905bfd4f63",
                 "shasum": ""
             },
             "type": "library",
@@ -837,7 +837,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2018-12-31T16:44:45+00:00"
+            "time": "2018-12-31T18:23:05+00:00"
         },
         {
             "name": "lapress/deployment",
