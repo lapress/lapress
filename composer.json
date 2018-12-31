@@ -61,7 +61,7 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi",
             "LaPress\\Support\\ComposerScripts::postAutoload",
-            "@php artisan lapress:make:theme"
+            "@php artisan lapress:install"
         ]
     }
 }
