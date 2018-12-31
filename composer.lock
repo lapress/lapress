@@ -884,12 +884,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/framework.git",
-                "reference": "b9fc15cd45ac74715d101bfc53d6ed8b27c3644a"
+                "reference": "6f57a3346a5f97f08bbb9896ca48086893fa1379"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/framework/zipball/b9fc15cd45ac74715d101bfc53d6ed8b27c3644a",
-                "reference": "b9fc15cd45ac74715d101bfc53d6ed8b27c3644a",
+                "url": "https://api.github.com/repos/lapress/framework/zipball/6f57a3346a5f97f08bbb9896ca48086893fa1379",
+                "reference": "6f57a3346a5f97f08bbb9896ca48086893fa1379",
                 "shasum": ""
             },
             "require": {
@@ -918,7 +918,7 @@
                 "laravel",
                 "wordpress"
             ],
-            "time": "2018-12-31T13:00:12+00:00"
+            "time": "2018-12-31T13:11:14+00:00"
         },
         {
             "name": "lapress/models",
@@ -1038,12 +1038,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/support.git",
-                "reference": "525f711d5571b7b8aa2ea4489c035b06698017e9"
+                "reference": "9d95a5aeacd16abc37c961d5f1c50ae4e4277550"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/support/zipball/525f711d5571b7b8aa2ea4489c035b06698017e9",
-                "reference": "525f711d5571b7b8aa2ea4489c035b06698017e9",
+                "url": "https://api.github.com/repos/lapress/support/zipball/9d95a5aeacd16abc37c961d5f1c50ae4e4277550",
+                "reference": "9d95a5aeacd16abc37c961d5f1c50ae4e4277550",
                 "shasum": ""
             },
             "type": "library",
@@ -1069,7 +1069,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2018-12-28T23:28:47+00:00"
+            "time": "2018-12-31T13:20:00+00:00"
         },
         {
             "name": "laravel/framework",
