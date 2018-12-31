@@ -809,12 +809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/commands.git",
-                "reference": "6b4e0cd561726ae7e4dd1503c226f5798b278a5f"
+                "reference": "a4e5fcbe45ebc6c0eedb554ff78c25f0d6c6a118"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/commands/zipball/6b4e0cd561726ae7e4dd1503c226f5798b278a5f",
-                "reference": "6b4e0cd561726ae7e4dd1503c226f5798b278a5f",
+                "url": "https://api.github.com/repos/lapress/commands/zipball/a4e5fcbe45ebc6c0eedb554ff78c25f0d6c6a118",
+                "reference": "a4e5fcbe45ebc6c0eedb554ff78c25f0d6c6a118",
                 "shasum": ""
             },
             "type": "library",
@@ -837,7 +837,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2018-12-31T13:07:41+00:00"
+            "time": "2018-12-31T16:44:45+00:00"
         },
         {
             "name": "lapress/deployment",
@@ -884,12 +884,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/framework.git",
-                "reference": "6f57a3346a5f97f08bbb9896ca48086893fa1379"
+                "reference": "0e4e1c84c928e065f28bcedfb09822b9a5897d68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/framework/zipball/6f57a3346a5f97f08bbb9896ca48086893fa1379",
-                "reference": "6f57a3346a5f97f08bbb9896ca48086893fa1379",
+                "url": "https://api.github.com/repos/lapress/framework/zipball/0e4e1c84c928e065f28bcedfb09822b9a5897d68",
+                "reference": "0e4e1c84c928e065f28bcedfb09822b9a5897d68",
                 "shasum": ""
             },
             "require": {
@@ -903,8 +903,7 @@
                 "lapress/routing": "dev-develop",
                 "lapress/support": "dev-develop",
                 "php": "^7.1.3",
-                "predis/predis": "^1.1",
-                "spatie/laravel-responsecache": "^4.4"
+                "predis/predis": "^1.1"
             },
             "type": "project",
             "notification-url": "https://packagist.org/downloads/",
@@ -918,7 +917,7 @@
                 "laravel",
                 "wordpress"
             ],
-            "time": "2018-12-31T13:11:14+00:00"
+            "time": "2018-12-31T16:03:18+00:00"
         },
         {
             "name": "lapress/models",
@@ -926,12 +925,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/models.git",
-                "reference": "7a204437f4756118e3f15638639bf5884325b597"
+                "reference": "190e7642f9b75278509358e81b7fec7dac3313ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/models/zipball/7a204437f4756118e3f15638639bf5884325b597",
-                "reference": "7a204437f4756118e3f15638639bf5884325b597",
+                "url": "https://api.github.com/repos/lapress/models/zipball/190e7642f9b75278509358e81b7fec7dac3313ce",
+                "reference": "190e7642f9b75278509358e81b7fec7dac3313ce",
                 "shasum": ""
             },
             "type": "library",
@@ -954,7 +953,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2018-05-13T21:40:01+00:00"
+            "time": "2018-12-31T15:59:03+00:00"
         },
         {
             "name": "lapress/presets",
@@ -1002,13 +1001,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/routing.git",
-                "reference": "17c67c234fba6c9903a04491796620f0e2e558d4"
+                "reference": "c123442d190303bce329d48f9f8b32cea97d539d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/routing/zipball/17c67c234fba6c9903a04491796620f0e2e558d4",
-                "reference": "17c67c234fba6c9903a04491796620f0e2e558d4",
+                "url": "https://api.github.com/repos/lapress/routing/zipball/c123442d190303bce329d48f9f8b32cea97d539d",
+                "reference": "c123442d190303bce329d48f9f8b32cea97d539d",
                 "shasum": ""
+            },
+            "require": {
+                "spatie/laravel-responsecache": "^4.4"
             },
             "type": "library",
             "extra": {
@@ -1030,7 +1032,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2018-12-28T21:58:44+00:00"
+            "time": "2018-12-31T16:01:37+00:00"
         },
         {
             "name": "lapress/support",
@@ -1038,12 +1040,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/support.git",
-                "reference": "9d95a5aeacd16abc37c961d5f1c50ae4e4277550"
+                "reference": "7c174d437ead15dee8080a2326e6cab50a2829b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/support/zipball/9d95a5aeacd16abc37c961d5f1c50ae4e4277550",
-                "reference": "9d95a5aeacd16abc37c961d5f1c50ae4e4277550",
+                "url": "https://api.github.com/repos/lapress/support/zipball/7c174d437ead15dee8080a2326e6cab50a2829b7",
+                "reference": "7c174d437ead15dee8080a2326e6cab50a2829b7",
                 "shasum": ""
             },
             "type": "library",
@@ -1069,7 +1071,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2018-12-31T13:20:00+00:00"
+            "time": "2018-12-31T15:59:03+00:00"
         },
         {
             "name": "laravel/framework",
