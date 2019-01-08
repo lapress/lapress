@@ -4,6 +4,7 @@ return [
     'core'  => storage_path('framework/wordpress'),
     'debug' => env('APP_DEBUG'),
     'theme' => [
+        'active'     => env('APP_THEME', 'theme'),
         'views'      => 'views',
         'option_key' => 'theme_mods_'.env('APP_NAME'),
     ],
