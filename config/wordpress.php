@@ -6,7 +6,7 @@ return [
     'theme' => [
         'active'     => env('APP_THEME', 'theme'),
         'views'      => 'views',
-        'option_key' => 'theme_mods_'.env('APP_NAME'),
+        'option_key' => 'theme_mods_'.env('APP_THEME', 'theme'),
     ],
     'url'   => [
         'backend'        => rtrim(env('APP_BACKEND_URL'), '/'),
