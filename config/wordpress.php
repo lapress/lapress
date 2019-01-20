@@ -14,7 +14,10 @@ return [
         'backend_prefix' => trim(parse_url(env('APP_BACKEND_URL'), PHP_URL_PATH), '/').'/',
         'site_prefix'    => trim(parse_url(env('APP_URL'), PHP_URL_PATH), '/').'/',
     ],
-
+    'content' => [
+        'dir' => storage_path('content'),
+        'url' => '/content'
+    ],
     'auth' => [
         'key'      => env('WP_AUTH_KEY'),
         'salt'     => env('WP_AUTH_SALT'),
@@ -50,6 +53,7 @@ return [
     ],
 
     'posts' => [
+        'route'       => 'posts',
         'per_page'    => 10,
         'on_homepage' => 10,
         'map'         => [
