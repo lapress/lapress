@@ -19,7 +19,7 @@ themes.forEach(theme => {
             extractVueStyles: false,
             autoprefixer: {options: {browsers: ['last 6 versions']}},
             processCssUrls: false,
-            postCss: [tailwindcss(`./${resourcePath}/js/tailwind.config.js`)]
+            postCss: [tailwindcss(`./${resourcePath}/js/config/style.config.js`)]
         })
         .purgeCss({
             enabled: true,
