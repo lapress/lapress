@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'HomepageController@show');
+
+Rute::postsTypes();
