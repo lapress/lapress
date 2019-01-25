@@ -39,7 +39,6 @@ class Post extends BasePost
      */
     public function searchableAs()
     {
-        return 'promotions';
+        return 'posts';
     }
-
 }
