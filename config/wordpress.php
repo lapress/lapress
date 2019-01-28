@@ -92,5 +92,16 @@ return [
                 'post_types' => ['post', 'page'],
             ],
         ],
+
+        'search' => [
+            'enabled'    => true,
+            'searchable' => [
+                '' =>  
+            ],
+            'grouped'    => [
+                'enable' => true,
+                'take'   => 5,
+            ],
+        ],
     ],
 ];
