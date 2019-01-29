@@ -95,9 +95,7 @@ return [
 
         'search' => [
             'enabled'    => true,
-            'searchable' => [
-                '' =>  
-            ],
+            'searchable' => [],
             'grouped'    => [
                 'enable' => true,
                 'take'   => 5,
