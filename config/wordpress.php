@@ -95,6 +95,7 @@ return [
 
         'search' => [
             'enabled'    => true,
+            'per_page' => 10,
             'searchable' => [],
             'grouped'    => [
                 'enable' => true,
